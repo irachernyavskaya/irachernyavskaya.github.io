@@ -1,0 +1,29 @@
+@import "reset.css";
+
+body {
+  width: 700px;
+  margin: 0 auto;
+  font-family: serif;
+  font-size: 22px;
+  margin: 36px auto;
+}
+
+h1 {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+img {
+  display: block;
+  width: 700px;
+  position: inherit;
+}
+
+h1 + p, p + img, img + p, p + a {
+  margin-top: 36px;
+}
+
+p + p {
+  margin-top: 10px;
+}
